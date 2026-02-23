@@ -1,0 +1,27 @@
+# ─────────────────────────────────────────
+#          GhostySpawn Configuration
+#         by Ger_Gh0stface | v1.0.0
+# ─────────────────────────────────────────
+
+# Language to use. Available: en, de
+# You can add your own lang files to the /lang/ folder.
+language: en
+
+# Teleport delay in seconds before the player is sent to spawn.
+# Set to 0 to disable.
+teleport-delay: 3
+
+# Should the player be notified of the countdown?
+show-countdown: true
+
+# Cancel the teleport if the player moves during the delay?
+cancel-on-move: true
+
+# The spawn location is stored here automatically. Do not edit manually.
+spawn:
+  world: ''
+  x: 0.0
+  y: 64.0
+  z: 0.0
+  yaw: 0.0
+  pitch: 0.0

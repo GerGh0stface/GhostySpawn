@@ -1,0 +1,37 @@
+name: GhostySpawn
+version: '1.0.0'
+main: ghostyspawn.GhostySpawn
+api-version: '1.21'
+authors: [ Ger_Gh0stface ]
+description: A simple, configurable spawn plugin.
+website: https://github.com/Ger-Gh0stface
+
+commands:
+  spawn:
+    description: Teleports you to the server spawn.
+    usage: /<command>
+    permission: ghostyspawn.spawn
+
+  addspawn:
+    description: Sets the server spawn to your current location.
+    usage: /<command>
+    permission: ghostyspawn.addspawn
+
+  ghostyspawn:
+    description: Main command for GhostySpawn management.
+    usage: /<command> reload
+    permission: ghostyspawn.reload
+
+permissions:
+  ghostyspawn.spawn:
+    description: Allows teleporting to spawn.
+    default: true
+  ghostyspawn.addspawn:
+    description: Allows setting the spawn location.
+    default: op
+  ghostyspawn.bypass-delay:
+    description: Bypasses the teleport delay.
+    default: op
+  ghostyspawn.reload:
+    description: Allows reloading the plugin.
+    default: op

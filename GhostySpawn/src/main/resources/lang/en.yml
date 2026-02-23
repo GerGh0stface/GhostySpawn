@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────
+#        GhostySpawn | Language: English
+# ─────────────────────────────────────────
+# You can use & color codes and hex colors &#RRGGBB
+# Use {prefix} to insert the plugin prefix.
+# Use {player} for the player's name.
+# Use {seconds} for the countdown seconds.
+
+prefix: '&#00BFFF&lGhostySpawn &8» &r'
+
+spawn:
+  no-permission: '{prefix}&cYou do not have permission to use this command.'
+  no-spawn-set: '{prefix}&cNo spawn has been set yet. Ask an admin to use /addspawn.'
+  teleporting: '{prefix}&7Teleporting to spawn in &e{seconds} &7second(s)...'
+  teleported: '{prefix}&aTeleported to spawn!'
+  cancelled: '{prefix}&cTeleport cancelled because you moved.'
+  only-players: '{prefix}&cThis command can only be used by players.'
+
+addspawn:
+  no-permission: '{prefix}&cYou do not have permission to use this command.'
+  success: '{prefix}&aSpawn has been set to your current location!'
+  only-players: '{prefix}&cThis command can only be used by players.'
+
+reload:
+  no-permission: '{prefix}&cYou do not have permission to use this command.'
+  success: '{prefix}&aPlugin reloaded successfully!'
+  usage: '{prefix}&cUsage: /ghostyspawn reload'
+
+countdown:
+  second: '{prefix}&7Teleporting in &e{seconds}&7...'
